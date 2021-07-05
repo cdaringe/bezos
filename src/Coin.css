@@ -1,0 +1,55 @@
+.coin {
+  transition: all 1s linear;
+  transform: rotate3d(0, 0, 0, 0);
+  display: inline-block;
+  width: calc(100vw / 10);
+  height: calc(100vw / 10);
+}
+
+.coin-spin {
+  transform: rotate3d(0, 1, 0, 359deg);
+}
+
+.scene {
+  width: calc(100vw / 10);
+  height: calc(100vw / 10);
+  perspective: 600px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.card.is-flipped {
+  transform: rotate3d(0, 1, 0, 359deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  /* background: red; */
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
