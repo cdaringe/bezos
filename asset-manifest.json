@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bezos/static/css/main.8004ff34.chunk.css",
+    "main.js": "/bezos/static/js/main.ee335253.chunk.js",
+    "main.js.map": "/bezos/static/js/main.ee335253.chunk.js.map",
+    "runtime-main.js": "/bezos/static/js/runtime-main.f74b3ac7.js",
+    "runtime-main.js.map": "/bezos/static/js/runtime-main.f74b3ac7.js.map",
+    "static/js/2.d27a04aa.chunk.js": "/bezos/static/js/2.d27a04aa.chunk.js",
+    "static/js/2.d27a04aa.chunk.js.map": "/bezos/static/js/2.d27a04aa.chunk.js.map",
+    "static/js/3.c5b1854f.chunk.js": "/bezos/static/js/3.c5b1854f.chunk.js",
+    "static/js/3.c5b1854f.chunk.js.map": "/bezos/static/js/3.c5b1854f.chunk.js.map",
+    "index.html": "/bezos/index.html",
+    "static/css/main.8004ff34.chunk.css.map": "/bezos/static/css/main.8004ff34.chunk.css.map",
+    "static/js/2.d27a04aa.chunk.js.LICENSE.txt": "/bezos/static/js/2.d27a04aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f74b3ac7.js",
+    "static/js/2.d27a04aa.chunk.js",
+    "static/css/main.8004ff34.chunk.css",
+    "static/js/main.ee335253.chunk.js"
+  ]
+}
