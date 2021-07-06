@@ -22,7 +22,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: Install yarn
         run: npm install -g yarn
-      - name: Install and Test
+      - name: Install, Format, Build
         run: |
           yarn
           yarn format --check
